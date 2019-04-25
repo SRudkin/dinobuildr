@@ -27,9 +27,14 @@ cat > /Applications/Firefox.app/Contents/Resources/distribution/policies.json <<
         "URL": "https://sso.mozilla.com/gmail",
         "Placement": "toolbar"
       },
+       {
+        "Title": "Mozilla Dashboard",
+        "URL": "https://sso.mozilla.com",
+        "Placement": "toolbar"
+      },
       {
-        "Title": "Vidyo Conferencing",
-        "URL": "https://v.mozilla.com",
+        "Title": "Zoom Video Conferencing",
+        "URL": "https://mozilla.zoom.us/",
         "Placement": "toolbar"
       },
       {
@@ -52,11 +57,7 @@ cat > /Applications/Firefox.app/Contents/Resources/distribution/policies.json <<
         "URL": "https://mana.mozilla.org/wiki/display/SD/New+Hire+IT+Information",
         "Placement": "toolbar"
       },
-      {
-        "Title": "IRCCloud",
-        "URL": "https://irccloud.mozilla.com",
-        "Placement": "toolbar"
-      },
+     
       {
         "Title": "Slack",
         "URL": "https://mozilla.slack.com",
